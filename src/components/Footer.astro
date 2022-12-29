@@ -1,0 +1,8 @@
+---
+const today = new Date();
+const {style} = Astro.props
+---
+
+<footer class={`${style}`}>
+	Copyright &copy; {today.getFullYear()} Desgn Co.,Ltd.. All rights reserved.
+</footer>
